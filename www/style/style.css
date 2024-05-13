@@ -1,0 +1,162 @@
+/*
+ *	UMS Tool - Uniform mark conversion tools
+ *	Copyright (C) 2011  Philip Kent
+ *
+ *	This program is free software: you can redistribute it and/or modify
+ *	it under the terms of the GNU General Public License as published by
+ *	the Free Software Foundation, either version 3 of the License, or
+ *	(at your option) any later version.
+ *
+ *	This program is distributed in the hope that it will be useful,
+ *	but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *	GNU General Public License for more details.
+ *
+ *	You should have received a copy of the GNU General Public License
+ *	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+@font-face {
+	font-family: MankSans;
+	src: url('MankSans.ttf');
+}
+ 
+ body {
+	 font-family: Tahoma, Verdana, sans-serif;
+	 font-size: 10pt;
+	 margin: 0;
+	 background: #333;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+	 font-family: Ubuntu;
+	 font-weight: bold;
+ }
+ 
+ a {
+	 color: #cd6900;
+	 text-decoration: none;
+	 font-weight: bold;
+ }
+ 
+ #footer a { color: orange; }
+ 
+ .no_items {
+	 color: grey;
+ }
+ 
+ #header {
+	 height: 60px;
+	 background: #111;
+	 border-bottom: 3px solid orange;
+	 -moz-box-shadow: 0px 0px 20px black;
+	 -webkit-box-shadow: 0px 0px 20px black;
+	 box-shadow: 0px 0px 20px black;
+	 color: white;
+	 font-family: MankSans, Arial, sans-serif;
+	 font-size: 45px;
+	 background-image: -webkit-gradient(
+		 linear,
+		 left bottom,
+		 left top,
+		 color-stop(0.11, rgb(31,31,31)),
+		 color-stop(0.5, rgb(15,15,15))
+	 );
+	 background-image: -moz-linear-gradient(
+		 center bottom,
+		 rgb(31,31,31) 11%,
+		 rgb(15,15,15) 50%
+	 );
+	text-shadow:0px 0px 10px #ADADAD
+ }
+ 
+ #header_links {
+	font-size: 12px;
+	font-family: Tahoma, Verdana, sans-serif;
+	position: absolute;
+	top: 25px;
+	right: 20px;
+	text-shadow:0px 0px 0px #ADADAD
+ }
+ 
+ #header img {
+	 vertical-align: bottom;
+ }
+
+ #header_text {
+	 vertical-align: middle;
+ }
+ 
+ #content {
+	 margin-top: 20px;
+	 width: 700px;
+	 margin-left: auto;
+	 margin-right: auto;
+	 background: white;
+	 padding: 10px;
+	 -moz-box-shadow: 0px 0px 10px black;
+	 -webkit-box-shadow: 0px 0px 10px black;
+	 box-shadow: 0px 0px 10px black;
+ }
+ 
+ #footer {
+	 padding: 10px;
+	 color: white;
+	 text-align: center;
+	 clear: both;
+ }
+ 
+ .box {
+	 text-align: center;
+ }
+ 
+ .rounded {
+	 -webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 border-radius: 5px;
+	 padding: 10px;
+ }
+ 
+ .red {
+	 background-color: pink;
+ }
+ 
+ .box_header {
+	 font-weight: bold;
+ }
+ 
+ .colwrap {
+	 width: 600px;
+	 margin-left: auto;
+	 margin-right: auto;
+	 clear: both;
+ }
+ 
+ table.colwrap tr td { vertical-align: top; }
+ 
+ table.nicetable { border: 1px solid darkgrey; border-right: 0; border-bottom: 0; margin-top: 10px;}
+ table.nicetable tr th { padding: 5px; margin: 0; background: lightgrey; border-bottom: 1px solid darkgrey; border-right: 1px solid darkgrey; }
+ table.nicetable tr td { padding: 5px; margin: 0; border-right: 1px solid darkgrey; border-bottom: 1px solid darkgrey; background: white; }
+ 
+ table.fullwidth, table.buttontable { width: 100%; }
+ 
+ td.left, td.right { width: 50%; }
+ 
+ table tr.centered { text-align: center; }
+ 
+ table.buttontable td { font-size: large; font-family: Ubuntu, sans-serif; height: 50px; text-align: center; border: 1px solid darkgrey; width: 33.3%; background: lightgrey; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+ 
+ .response_box
+ {
+	 border: 1px dotted #cd6900;
+	 background: #F4B36F;
+	 padding: 10px;
+ }
+ 
+ .response_box h1, .response_box h2, .response_box h3, .response_box h4
+ {
+	 margin: 0;
+	 padding: 0;
+ }
+ 
+ td.noheaderpadding h1, td.noheaderpadding h2, td.noheaderpadding h3, td.noheaderpadding h4 { margin-top: 0; padding-top: 0; }
